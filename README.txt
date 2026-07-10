@@ -1,0 +1,1 @@
+Agrega sus fotos en assets/fotos y publica la carpeta en GitHub Pages o Netlify. Luego genera un QR con la URL publicada.

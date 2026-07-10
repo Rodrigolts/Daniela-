@@ -1,0 +1,1 @@
+const t=new Date('2027-02-20T18:00:00');setInterval(()=>{let d=t-new Date();if(d<0){count.innerHTML='¡Hoy es el gran día!';return;}let D=Math.floor(d/86400000),H=Math.floor(d%86400000/3600000),M=Math.floor(d%3600000/60000),S=Math.floor(d%60000/1000);count.innerHTML=`<h3>Faltan</h3><h2>${D} días ${H}h ${M}m ${S}s</h2>`},1000);
